@@ -54,7 +54,7 @@ class Dashboard(object):
                 
     Here's an example of a custom dashboard::
     
-        from django.core.urlresolvers import reverse
+        from django.urls import reverse
         from django.utils.translation import ugettext_lazy as _
         from admin_tools.dashboard import modules, Dashboard
         
